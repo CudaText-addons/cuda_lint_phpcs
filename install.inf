@@ -1,0 +1,5 @@
+[info]
+title=Linter for PHP, using PHP_CodeSniffer
+desc=Linter for CudaLint, adds support for PHP lexer, using PHP_CodeSniffer
+type=cudatext-plugin
+subdir=cuda_lint_phpcs
