@@ -2,7 +2,7 @@ import os
 from cuda_lint import Linter
 
 _pack = os.path.join(os.path.dirname(__file__), 'phpcs.phar')
-_opt = '--standard=PSR2'
+_opt = '--standard=PSR12'
 
 class Phpcs(Linter):
     syntax = ('PHP', 'PHP_')
